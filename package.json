@@ -1,5 +1,5 @@
 {
-  "name": "testPlugin",
+  "name": "MC_testPlugin",
   "version": "0.2.0",
   "author": "Moon Cui",
   "bugs": "https://github.com/MoonCui-Ying/testPlugin/issues",
@@ -53,7 +53,7 @@
       "@oclif/plugin-help"
     ]
   },
-  "repository": "MoonCui-Ying/testPlugin",
+  "repository": "https://github.com/MoonCui-Ying/testPlugin.git",
   "scripts": {
     "postpack": "rimraf oclif.manifest.json npm-shrinkwrap.json",
     "posttest": "tslint -p test -t stylish",
